@@ -9,7 +9,7 @@ CREATE table cats (
   url VARCHAR NOT NULL,
   year INT NOT NULL,
   lives INT NOT NULL,
-  isSideKick BOOLEAN NOT NULL
+  isSideKick BOOLEAN 
 );
 
 INSERT INTO cats (name, type, url, year, lives, isSideKick) VALUES
